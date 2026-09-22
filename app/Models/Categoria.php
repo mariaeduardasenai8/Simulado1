@@ -8,7 +8,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Categoria extends Model
 {
-    use HasFactory, SoftDeletes;
+ use HasFactory, SoftDeletes;
+
+
+
     protected $fillable = [
         'nome',
         'descricao',
@@ -23,3 +26,4 @@ class Categoria extends Model
         ];
     }
 }
+
